@@ -14,24 +14,20 @@
 		<h3>Função var_dump</h3>
 
 		<?php 
-			$nome = 'Ivan';
+			$nome = 'Luca';
 			$saldo = 965.35; 
 
 		?>
 
 		<h4>Tipo da variável $nome: </h4>
-		<p></p>
+		<p><?php var_dump($nome);?></p>
 
 		<br>
 
 		<h4>Tipo da variável $saldo: </h4>
-		<p></p>
+		<p><?php var_dump($saldo);?></p>
 		
-
-			
-
-
-
+		<!--O "var_dump" serve para verificar o tipo da variável.-->
 
 		<?php include 'functions/bottom_index.php'; ?>
 
